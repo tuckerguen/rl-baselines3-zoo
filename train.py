@@ -8,6 +8,7 @@ import gym
 import numpy as np
 import seaborn
 import torch as th
+import tuckerl
 from stable_baselines3.common.utils import set_random_seed
 
 # Register custom envs

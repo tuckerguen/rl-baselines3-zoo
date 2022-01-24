@@ -140,6 +140,14 @@ MinitaurBulletEnv-v0:
 
 # === Mujoco Envs ===
 
+HumanArm-v0:
+  <<: *pybullet-defaults
+  n_timesteps: !!float 2e6
+
+HumanArm-v1:
+  <<: *pybullet-defaults
+  n_timesteps: !!float 2e6
+
 HalfCheetah-v3: &mujoco-defaults
   n_timesteps: !!float 1e6
   policy: 'MlpPolicy'
